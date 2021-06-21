@@ -1,6 +1,8 @@
 *{
     padding:0px;
     margin:0px;
+    width: 100%;
+    /* border: solid black 2px; */
 }
 body{
     width: 100%;
@@ -12,7 +14,7 @@ body{
     background:rgb(113, 233, 223);
     text-align: center;
     height: 13vh;
-    width: 100%;
+    width: auto;
     text-decoration: bold;
 }
 .menu-bar img{
@@ -22,7 +24,7 @@ body{
     display:inline-flex;
     list-style-type: none;
     margin-top:10px;
-    width:80%;
+    width:auto;
     margin-left:auto;
 }
 .menu-bar ul li{
@@ -76,40 +78,96 @@ button:hover{
     margin-left: 0px;
 }
 #minionsleft{
-    width: 400px;
+    width: 600px;
+    height: 250px;
 }
 #minionsright{
     width: 600px;
+    height: 250px;
+}
+#lostandfound{
+    height: 250px;
 }
 .content{
     text-align: center;
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
+    width: auto;
 }
 .content h2{
     text-align: center;
     color: blue;
 }
-.partners {  
-    border: solid 1px;
-    width: 100%;  
-    margin-right: 30px;
-    padding-top: 30px;
+
+.partners{
+    display: flex;
+    width: auto;
+}
+.partners ul{
+    padding-left: 70px;
+    display: flex;
+    width: 100%;
+    list-style: none;
+    margin-left: 20px;
+}
+#transport{
+    padding-right: 200px;
+}
+#saf{
+    padding-right: 200px;
+}
+#nyumba{
+    padding-right: 50px;
+}
+
+.partnersimages{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.partnersimages img{
+    height: 200px;
+    margin-left: 20px;
+}
+#police{
     padding-left: 30px;
+    width: 500px;
+    margin-right: 50px;
+}
+#nyumbakumi{
+    padding-right: 70px;
+}
+#ntsa{
+    width: 700px;
+    flex-grow: 5;
+}
+
+
+/* .partners{
+    padding-top: 30px;
+    width: auto;
+    display: flex;
+    padding-left: 150px;
 }
 .partners p{
-    text-align: center;
+    width: auto;
 }
-.partners h2{
-    text-align: center;
-    color: blue;
-}
-.partners li{
+.partnersimages{
     display: flex;
-    flex-direction: column;
-    list-style: none;
-    display: inline-block;
-    justify-content: space-between;
-
+    width: 100%;
+    flex-direction: row;
 }
+.partnersimages img{
+    height: 200px;
+    width: 100%;
+    margin-left: 20px;
+}
+#police{
+    padding-left: 30px;
+    width: 1500px;
+    margin-right: 50px;
+}
+#ntsa{
+    padding-left: 30px;
+} */
