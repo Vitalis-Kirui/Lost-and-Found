@@ -1,0 +1,77 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color:lightslategray;
+    font-family:sans-serif;
+	width: 100%;
+}
+.menu-bar{
+    background:rgb(48, 206, 145);
+    text-align: center;
+    height:12vh;
+	width: 100%;
+    text-decoration: bold;
+}
+.menu-bar img{
+    float:left;
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style-type: none;
+    margin-top:10px;
+    width:80%;
+    margin-left:auto;
+}
+.menu-bar ul li{
+    width:150px;
+    margin:15px;
+    padding:15px;
+}
+.menu-bar ul li a{
+    text-decoration:none;
+    color:rgb(14, 13, 13);
+}
+.menu-bar .fa{
+    margin-right:8px;
+}
+ .tab:hover{
+    background-color:rgb(131, 126, 126);
+    border-radius: 3px;
+    color:white;
+    cursor:pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+.submenu1{
+    display:none;
+}
+.menu-bar ul li:hover .submenu1{
+    display:block;
+    position:absolute;
+    background:darkgrey;
+    margin-top:15px;
+    margin-left:-15px;
+}
+.menu-bar ul li:hover .submenu1 ul{
+    display:block;
+    margin:-10px;
+}
+.menu-bar ul li:hover .submenu1 ul li{
+    width:150px;
+    padding:10px;
+}
+.backgrounding{
+	margin-top: 0px;
+	background-image: url(./Images/Sad\ guy\ 1.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+    height:300px;
+	width: 100%;
+}
+.backgrounding img{
+	width: 100%;
+}
