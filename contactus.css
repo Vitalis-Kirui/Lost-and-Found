@@ -1,0 +1,122 @@
+*{
+    padding:0px;
+    margin:0px;
+    width: 100%;
+}
+body{
+    width: auto;
+    background-color:lightslategray;
+    font-family:sans-serif;
+    background-color: rgb(215, 233, 229);
+}
+.menu-bar{
+    background:rgb(113, 233, 223);
+    text-align: center;
+    height: 13vh;
+    width: auto;
+    text-decoration: bold;
+}
+.menu-bar img{
+    float:left;
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style-type: none;
+    margin-top:10px;
+    width:auto;
+    margin-left:auto;
+}
+.menu-bar ul li{
+    width:150px;
+    margin:15px;
+    padding:15px;
+}
+.menu-bar ul li a{
+    text-decoration:none;
+    color:rgb(14, 13, 13);
+}
+.menu-bar .fa{
+    margin-right:8px;
+}
+ .tab:hover{
+    background-color:rgb(131, 126, 126);
+    border-radius: 3px;
+    color:white;
+    cursor:pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+.submenu1{
+    display:none;
+}
+.menu-bar ul li:hover .submenu1{
+    display:block;
+    position:absolute;
+    background:darkgrey;
+    margin-top:15px;
+    margin-left:-15px;
+}
+.menu-bar ul li:hover .submenu1 ul{
+    display:block;
+    margin:-10px;
+}
+.menu-bar ul li:hover .submenu1 ul li{
+    width:150px;
+    padding:10px;
+}
+body{
+    font-size: 24px;
+    width: auto;
+}
+.contactdetails{
+    width: auto;
+    padding-top: 10px;
+    font-size: 26px;
+    margin-left: 30px;
+}
+#para{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: auto;
+    margin-left: 40px;
+    font-size: 24px;
+}
+#email{
+    margin-left: 40px;
+    width: auto;
+}
+#elink:hover{
+    color: red;
+}
+#phone{
+    width: auto;
+    margin-left: 40px;
+}
+#locationp{
+    margin-left: 20px;
+    width: auto;
+}
+.socialmedia{
+    display: flex;
+}
+.socialmedia ul{
+    display: flex;
+    margin-left: 200px;
+    list-style: none;
+}
+.icons{
+    display: flex;
+}
+#fb, #twit, #insta{
+    height: 200px;
+    width: 150px;
+}
+#fb{
+    margin-left: 190px;
+}
+#twit{
+    margin-left: 115px;
+}
+#insta{
+    margin-left: 65px;
+}
