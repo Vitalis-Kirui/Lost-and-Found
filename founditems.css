@@ -70,3 +70,7 @@
             font-size: 18px;
             font-family: fantasy;
         }
+        
+        body {
+            background-color: rgb(199, 221, 216);
+        }
