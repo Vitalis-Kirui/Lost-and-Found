@@ -1,6 +1,7 @@
 *{
     padding:0px;
     margin:0px;
+	width: 100%;
 }
 body{
     background-color:lightslategray;
@@ -9,7 +10,7 @@ body{
 	justify-content: space-evenly;
 }
 .menu-bar{
-    background:rgb(48, 206, 145);
+    background: #5FAC8C;
     text-align: center;
     height:12vh;
 	width: 100%;
@@ -77,15 +78,36 @@ button:hover{
 	width: 100%;
 	align-items: center;
 }
+.backgrounding button{
+	background-color:#0500FF;	
+	
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	font-weight: 800;
+	font-size: 20px;
+	margin-top: 150px;
+	margin-left: 1000px;
+	font-family: Roboto;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-style: solid;
+}
+
 .procedure h3{
+	width: auto;
 	color: blue;
 	font-size: 24px;
-	padding-left: 50px;
+	padding-left: 40px;
 }
 .procedure p{
-	padding-left: 50px;
+	padding-left: 20px;
+	width: auto;
 }
 .procedure ul{
+	width: auto;
 	justify-content: space-between;
 	font-size: 18px;
 	font-family: fantasy;
@@ -123,16 +145,18 @@ h2{
 	/* -You have indicated that you lost an item, don’t worry, we have got your back. Just fill the form on the left and relax! */
 
 position: absolute;
-width: 654px;
-height: 126px;
-left: 730px;
-top: 163px;
+width: 350px;
+height: 83px;
+left: 370px;
+top: 81px;
+padding-top: 70px;
+padding-left: 650px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 36px;
-line-height: 42px;
+font-size: 20px;
+line-height: 30px;
 text-align: center;
 
 color: #000000;
