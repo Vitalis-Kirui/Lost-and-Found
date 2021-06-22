@@ -78,3 +78,10 @@
         button {
             background-color: rgb(51, 51, 243);
         }
+        
+        .found {
+            display: flex;
+            align-items: space-between;
+            position: relative;
+            float: center;
+        }
