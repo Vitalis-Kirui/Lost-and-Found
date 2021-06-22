@@ -85,3 +85,21 @@
             position: relative;
             float: center;
         }
+        
+        .found img {
+            margin-left: 50px;
+            border: 3px solid;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        .found div {
+            margin: 0px 100px 0px 100px;
+        }
+        
+        .found p {
+            color: rgb(0, 0, 0);
+            text-align: justify;
+        }
