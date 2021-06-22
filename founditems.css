@@ -65,3 +65,8 @@
         .menu-bar ul li:hover .submenu1 ul li {
             width: 150px;
         }
+        
+        * {
+            font-size: 18px;
+            font-family: fantasy;
+        }
