@@ -1,4 +1,5 @@
 *{
+    font-family: fantasy;
     padding:0px;
     margin:0px;
     width: 100%;
@@ -8,6 +9,8 @@ body{
     background-color:lightslategray;
     font-family:sans-serif;
     background-color: rgb(215, 233, 229);
+    font-size: 24px;
+    width: auto;
 }
 .menu-bar{
     background:rgb(113, 233, 223);
@@ -65,10 +68,6 @@ button:hover{
     width:150px;
     padding:10px;
 }
-body{
-    font-size: 24px;
-    width: auto;
-}
 .contactdetails{
     width: auto;
     padding-top: 10px;
@@ -76,9 +75,10 @@ body{
     margin-left: 30px;
 }
 #para{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: fantasy;
     width: auto;
     margin-left: 40px;
+    padding-right: 30px;
     font-size: 24px;
 }
 #email{
@@ -112,11 +112,17 @@ body{
     width: 150px;
 }
 #fb{
+    border: solid rgb(168, 223, 204) 1px;
+    border-radius: 700px;
     margin-left: 190px;
 }
 #twit{
+    border: solid rgb(168, 223, 204) 1px;
+    border-radius: 700px;
     margin-left: 115px;
 }
 #insta{
+    border: solid rgb(168, 223, 204) 1px;
+    border-radius: 700px;
     margin-left: 65px;
 }
