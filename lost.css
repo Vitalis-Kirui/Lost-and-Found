@@ -6,6 +6,7 @@ body{
     background-color:lightslategray;
     font-family:sans-serif;
 	width: 100%;
+	justify-content: space-evenly;
 }
 .menu-bar{
     background:rgb(48, 206, 145);
@@ -74,4 +75,67 @@ button:hover{
 }
 .backgrounding img{
 	width: 100%;
+	align-items: center;
+}
+.procedure h3{
+	color: blue;
+	font-size: 24px;
+	padding-left: 50px;
+}
+.procedure p{
+	padding-left: 50px;
+}
+.procedure ul{
+	justify-content: space-between;
+	font-size: 18px;
+	font-family: fantasy;
+	padding-left: 70px;
+}
+.found {
+    display: flex;
+    align-items: space-between;
+    position: relative;
+    float: center;
+}
+body {
+    background-color: rgb(199, 221, 216);
+	justify-content: space-between;
+}
+.found img {
+    margin-left: 50px;
+}
+h2 {
+    text-align: center;
+}
+.found div {
+    margin: 0px 100px 0px 100px;
+}
+.found p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+h2{
+	text-align: center;
+	padding-top: 40px;
+	font-size: 36px;
+}
+.backgrounding p{
+	/* -You have indicated that you lost an item, don’t worry, we have got your back. Just fill the form on the left and relax! */
+
+position: absolute;
+width: 654px;
+height: 126px;
+left: 730px;
+top: 163px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+
 }
