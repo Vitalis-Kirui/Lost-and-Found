@@ -11,6 +11,14 @@ body{
     background-color: rgb(215, 233, 229);
     font-size: 24px;
 }
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-decoration: bold;
+    z-index: 10;
+}
 /* styling the navigation bar */
 
 .menu-bar{
@@ -86,7 +94,7 @@ button:hover{
 
 .contactdetails{
     width: auto;
-    padding-top: 10px;
+    padding-top: 130px;
     font-size: 26px;
     margin-left: 30px;
 }
