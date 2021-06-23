@@ -95,23 +95,26 @@ button:hover{
 	border-bottom-right-radius: 50px;
 	border-style: solid;
 }
-
+.procedure{
+	text-align: center;
+}
 .procedure h3{
 	width: auto;
 	color: blue;
 	font-size: 24px;
-	padding-left: 40px;
+	/* padding-left: 40px; */
 }
 .procedure p{
 	padding-left: 20px;
 	width: auto;
 }
-.procedure ul{
-	width: auto;
-	justify-content: space-between;
+.procedure ol{
+	/* width: auto;
+	justify-content: space-between; */
 	font-size: 18px;
 	font-family: fantasy;
-	padding-left: 70px;
+	
+	
 }
 .found {
     display: flex;
@@ -163,3 +166,59 @@ color: #000000;
 
 
 }
+footer{
+	background:#5FAC8C;
+	box-sizing: border-box;
+	width:100%;
+	height:80vh;
+	padding:30px 30px 30px 30px;
+}
+.help ul{
+	list-style-type:none;
+}
+.help ul a{
+	color:white;
+	text-decoration:none;
+}
+.help ul a:hover{
+	color:black;
+}
+.stayconnected ul{
+	list-style-type:none;
+}
+.stayconnected ul li{
+	display:inline-flex;
+}
+.stayconnected ul li img:hover{
+	border-radius:7px;
+	box-shadow:2px 2px 2px 2px;
+}
+.top{
+	display:inline-flex;
+	width:95%;
+	margin-left:50px;
+	margin-bottom:20px;
+	justify-content:space-between;
+}
+.bottom{
+	box-sizing: border-box;
+	width:90%;
+	margin-left:50px;
+}
+.partners{
+	width:100%;
+	display:inline-flex;
+	padding:20px 20px 20px 20px;
+	margin-left:50px;
+	text-align:center;
+}
+.partners img{
+	margin:-10px 20px 20px 70px;
+}
+.partners img:hover{
+	box-shadow: 2px 2px 2px 2px;
+}
+.contactus{
+	padding:10px 10px 10px 0px;
+}
+
