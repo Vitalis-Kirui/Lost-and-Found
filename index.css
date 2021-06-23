@@ -1,0 +1,71 @@
+@media all and (min-width:500px){
+
+    body{
+        display:inline-block;
+        background-color:#5FAC8C;
+    }
+    
+    main{
+        background-color:lightslategray;
+    }
+    .Face{
+        float:left;
+        padding:20px 20px 20px 100px;
+        width:50%;
+        margin-top:150px;
+    }
+    
+    .Face h1{
+        color:red;
+    }
+    
+    strong{
+        color:red;
+    }
+    
+    .login-phase{
+        background-color:lightslategray;
+        margin-top:90px;
+        width:28%;
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+        float:right;
+        padding:20px 20px 20px 20px;
+        box-shadow: -1px 1px 5px 2px rgba(250, 249, 249, 0.75);
+        border-radius:5px;
+        text-decoration:none;
+    }
+    
+    input{
+        border-radius:5px;
+        box-shadow:none;
+    }
+    
+    button{
+        border-radius:10px;
+        background-color:#B2D6CB;
+        box-shadow:none;
+        cursor:pointer;
+    }
+    
+    button:hover{
+        background-color:#5ac5a3;
+    }
+    
+    .SignUp{
+        background-color:lightslategray;
+        margin-top:90px;
+        width:38%;
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+        float:right;
+        padding:20px 20px 20px 20px;
+        box-shadow: -1px 1px 5px 2px rgba(252, 246, 246, 0.75);
+        border-radius:5px;
+        text-decoration:none;
+    }
+    
+}
+
