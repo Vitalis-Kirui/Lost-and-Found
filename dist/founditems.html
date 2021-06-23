@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="founditems.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>Found Items</title>
 </head>
 
 <body>
+    <!-- Heading and navigation page -->
     <header>
         <div class="menu-bar">
             <img src="./Images/Lost_and_found_4-removebg-preview.png" alt="Lost and Found logo" style="background:none;width:150px; height: 105px;" />
@@ -20,7 +22,7 @@
                 <li class="tab" style="border:1px solid darkgrey;border-radius:2px;">
                     <a href=""></a><i class="fa fa-user"></i>MY ACCOUNT<i class="fa fa-angle-down" style="margin-left:-5px;padding-left:6px"></i></a>
                     <div class="submenu1">
-                        <ul>
+                        <ul style="display:none;">
                             <li style="background:rgb(85, 81, 81);border-radius:2px;color:white" id="log"><a href="Login.html">Login</a></li>
                             <hr style="margin-left:50px;" />
                             <li style="color:white;">
@@ -38,15 +40,18 @@
             </ul>
         </div>
     </header>
+    <!-- End of heading and navigation page -->
     <div class="image">
         <img src="./Images/Returned-Wallet.jpg" height="200" width="100%" alt="Returned Wallet">
     </div>
     <div>
         <p><b>Did you collect a lost property?If yes, please take a minute to fill this form on the left so that together we can find the owner. If you are here to check on the items posted by those who collected them, take your time on the right,
             we hope you find you items. </b></p>
-        <button type="button" class="but">Upload</button>
+        <button type="button" class="but"><a href="">Upload</a></button>
         <h2><b>ITEMS FOUND</b></h2>
     </div>
+
+    <!-- pictures and text for found items -->
     <div class="found">
         <div>
             <img id="wallet" src="./Images/Wallect 2.jpg" height="300" width="300" alt="wallet ">
@@ -64,6 +69,7 @@
             <p></p>
         </div>
     </div>
+
     <div class="found">
         <div>
             <img id="wallet" src="./Images/FoundCamera.jpg" height="300" width="300" alt="wallet ">
@@ -81,6 +87,62 @@
             <p></p>
         </div>
     </div>
+    <!-- End of pictures and text for found items -->
+    <!-- footer page -->
+    <footer>
+        <div class="top">
+            <div class="help" style="color:white;">
+                <h4>HELP CENTER</h4>
+                <ul style="margin-left: -40px;">
+                    <li><a href="">How to use LOST AND FOUND?</a></li>
+                    <li><a href="">How to register</a></li>
+                    <li><a href="">Report a User</a></li>
+                </ul>
+            </div>
+            <div class="stayconnected" style="color:white;">
+                <h4>JOIN US ON</h4>
+                <ul style="margin-left: -40px;">
+                    <li>
+                        <a href=""><img src="Images/facebook.png" style="width:45px;height: 6vh;margin-right:10px;margin-left:-50px;" /></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="Images/Instagram.png" style="width:45px;height:6vh;margin-right:7px;" /></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="Images/twitter.png" style="width:50px;height:6vh;" /></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="Images/Youtube.png" style="width:45px;height:6vh;border-radius:7px;" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div style="display: inline-flex; width: 25px; height: 200px;" class="divline">
+                <hr style="margin: 2px 2px 20px 12.5px;">
+            </div>
+            <div class="contactus" style="color:white;margin-left:-201px; margin-top: -20px;">
+                <h4>CONTACT US</h4>
+                <p style="margin-bottom:10px;color:black; text-align: left;"><strong>Email Address:</strong></p>
+                <p style="margin-left:20px;margin-bottom:10px;">lostandfound@gmail.com</p>
+                <p style="margin-bottom:10px;;color:black;text-align: left;"><strong>Telephone Address:</strong></p>
+                <p style="margin-left:20px;margin-bottom:10px;">0714234985</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <h4 style="color:white;">PARTNERS WITH:</h4>
+            <br>
+            <div class="partners">
+                <img src="Images/Kenya police.png" alt="Kenya Police logo" style="width:150px;height:20vh;" />
+                <img src="Images/safaricom-logo-vector.png" alt="Safaricom logo" style="width:350px;height:12vh;" />
+                <img src="Images/nyumba-kumi.jpg" alt="Nyumba Kumi Initiative" style="width:200px;height:20vh;" />
+                <img src="Images/NTSA.png" alt="NTSA logo" style="width:350px;height:12vh;" />
+            </div>
+        </div>
+        <br><br>
+        <hr style="margin-top:-40px;margin-bottom:20px;" />
+        <p style="text-align:center;">Copyright &copy; 2021 LOST AND FOUND, All right reserved.</p>
+    </footer>
+    <!-- End of footer -->
+
 </body>
 
 </html>
