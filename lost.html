@@ -6,20 +6,20 @@
 	<title>LOST ITEMS</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<link rel='stylesheet' type='text/css' media='screen' href='lost.css'>
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 	<script src='main.js'></script>
 </head>
 <body>
 	<header>
         <div class="menu-bar">
-            <img src="./Images/Lost_and_found_4-removebg-preview.png" alt="Lost and Found logo" style="background:none;width:150px; height: 105px;"/>
+            <img src="Images/Lost_and_found_4-removebg-preview.png" alt="Lost and Found logo" style="background:none;width:150px; height: 105px;"/>
             <ul>
                 <li class="tab"><a href=""><i class="fa fa-home"></i>HOME</a></li>
                 <li class="tab"><a href=""><i class="fa fa-question-circle"></i>ABOUT US</a></li>
                 <li class="tab"><a href=""><i class="fa fa-phone-square"></i>CONTACT US</a></li>
                 <li class="tab" style="border:1px solid darkgrey;border-radius:2px;"><a href=""></a><i class="fa fa-user"></i>MY ACCOUNT<i class="fa fa-angle-down" style="margin-left:-5px;padding-left:6px"></i></a>
                 <div class="submenu1">
-                    <ul>
+                    <ul style="display: none;">
                         <li style="background:rgb(85, 81, 81);border-radius:2px;color:white" id="log"><a href="Login.html">Login</a></li>
                         <hr style="margin-left:50px;"/>
                         <li style="color:white;"><p>Or</p></li>
@@ -30,13 +30,12 @@
                 </li>
                 <li>
                     <input type="text" placeholder="Search items.." name="search" style="margin-left:-30px;margin-top:-10px;opacity:0.7;border-radius:3px;height:4vh;">
-                    <a href="" style="display:flex"> <button type="button" style="border-radius:3px;margin-left:160px;margin-top:-29px; background:lightslategray;width:45px;height:4.5vh;">
-						<i class="fa fa-search" style="margin-left:10px;"></i></button></a>
+                    <a href="" style="display:flex"> <button type="button" style="border-radius:3px;margin-left:160px;margin-top:-29px; background:lightslategray;width:45px;height:4.5vh;"><i class="fa fa-search" style="margin-left:10px;"></i></button></a>
                 </li>
             </ul>
         </div>
     </header>
-	
+<main style="margin-top:115px;">
 	        <div class="backgrounding">
 		       <p>-You have indicated that you lost an item, dont worry,we have got your back</p>
 			   <button type="button" class="butt">Upload</button>
@@ -58,9 +57,7 @@
 				<br>
 			</div>
 
-
-
-<div class="found">
+	<div class="found">
 	<div>
 		<img id="id" src="./Images/lost id.png" height="400" width="400" alt="Id">
 		<br>
@@ -112,53 +109,54 @@
 		<p></p>
 	</div>
 </div>
-
-</body>
+</main>
 <footer>
-        <div class="top">
-            <div class="help" style="color:white;">
-                <h4>HELP CENTER</h4>
-                <br>
-                <ul>
-                    <li><a href="">How to use LOST AND FOUND?</a></li>
-                    <li><a href="">How to register</a></li>
-                    <li><a href="">Report a User</a></li>
-                </ul>
-            </div>
-                <div class="stayconnected" style="color:white;">
-                    <h4>JOIN US ON</h4>
-                    <br>
-                    <ul>
-                        <li><a href=""><img src="Images/facebook.png" style="width:45px;height: 6vh;margin-right:10px;"/></a></li>
-                        <li><a href=""><img src="Images/Instagram.png" style="width:45px;height:6vh;margin-right:7px;"/></a></li>
-                        <li><a href=""><img src="Images/twitter.png" style="width:50px;height:6vh;"/></a></li>
-                        <li><a href=""><img src="Images/Youtube.png" style="width:45px;height:6vh;border-radius:7px;"/></a></li>
-                    </ul>
-                </div>
-                <div style="display: inline-flex; width: 25px; height: 200px;" class="divline">
-                    <hr style="margin: 2px 2px 20px 12.5px;">
-                </div>
-                <div class="contactus" style="color:white;margin-left:-201px;">
-                    <h4 style="margin-left:-60px;">CONTACT US</h4>
-                    <br>
-                    <p style="margin-bottom:10px;margin-left:-60px;color:black;"><strong>Email Address:</strong></p>
-                            <p style="margin-left:-60px;margin-bottom:10px;">lostandfound@gmail.com</p>
-                        <p style="margin-bottom:10px;margin-left:-60px;color:black;"><strong>Telephone Address:</strong></p>
-                            <p style="margin-left:-60px;margin-bottom:10px;">0714234985</p>
-                </div>
-        </div>
-        <div class="bottom">
-            <h4 style="color:white;">PARTNERS WITH:</h4>
-            <br>
-            <div class="partners">
-                    <img src="Images/Kenya police.png" alt="Kenya Police logo" style="width:300px;height:20vh;"/>
-                    <img src="Images/safaricom-logo-vector.png" alt="Safaricom logo" style="width:350px;height:12vh;"/>
-                    <img src="Images/nyumba-kumi.jpg" alt="Nyumba Kumi Initiative" style="width:200px;height:20vh;" />
-                    <img src="Images/NTSA.png" alt="NTSA logo" style="width:350px;height:12vh;"/>
-            </div>
-        </div>
-        <br><br>
-        <hr style="margin-top:-40px;margin-bottom:20px;"/>
-        <p style="text-align:center;">Copyright &copy; 2021 LOST AND FOUND, All right reserved.</p>
-    </footer>
+	<div class="top">
+		<div class="help" style="color:white;width:30%;margin-left:30px;">
+			<h4>HELP CENTER</h4>
+			<br>
+			<ul>
+				<li><a href="">How to use LOST AND FOUND?</a></li>
+				<li><a href="">How to register</a></li>
+				<li><a href="">Report a User</a></li>
+			</ul>
+		</div>
+			<div class="stayconnected" style="color:white;text-align: center;width:30%;margin-right:500px;margin-left:-80px;">
+				<h4>JOIN US ON</h4>
+				<br>
+				<ul style="display:inline-flex;width:50%;">
+					<li><a href=""><img src="Images/facebook.png" style="width:45px;height: 6vh;margin-right:0px;margin-left:0px;"/></a></li>
+					<li><a href=""><img src="Images/Instagram.png" style="width:45px;height:6vh;margin-right:0px;"/></a></li>
+					<li><a href=""><img src="Images/twitter.png" style="width:50px;height:6vh;"/></a></li>
+					<li><a href=""><img src="Images/Youtube.png" style="width:45px;height:6vh;border-radius:7px;"/></a></li>
+				</ul>
+			</div>
+			<div style="display: inline-flex; width:0px; height: 200px;" class="divline">
+				<hr style="margin: 2px 2px 20px -250px;">
+			</div>
+			<div class="contactus" style="color:white;margin-left:-201px;width:30%;">
+				<h4>CONTACT US</h4>
+				<br>
+				<p style="margin-bottom:10px;color:black;"><strong>Email Address:</strong></p>
+						<p style="margin-left:20px;margin-bottom:10px;">lostandfound@gmail.com</p>
+					<p style="margin-bottom:10px;;color:black;"><strong>Telephone Address:</strong></p>
+						<p style="margin-left:20px;margin-bottom:10px;">0714234985</p>
+			</div>
+	</div>
+	<div class="bottom">
+		<h4 style="color:white;">PARTNERS WITH:</h4>
+		<br>
+		<div class="partners">
+				<img src="Images/Kenya police.png" alt="Kenya Police logo" style="width:150px;height:20vh;"/>
+				<img src="Images/safaricom-logo-vector.png" alt="Safaricom logo" style="width:350px;height:12vh;"/>
+				<img src="Images/nyumba-kumi.jpg" alt="Nyumba Kumi Initiative" style="width:200px;height:20vh;" />
+				<img src="Images/NTSA.png" alt="NTSA logo" style="width:350px;height:12vh;"/>
+		</div>
+	</div>
+	<br><br>
+	<hr style="margin-top:-40px;margin-bottom:20px;"/>
+	<p style="text-align:center;">Copyright &copy; 2021 LOST AND FOUND, All right reserved.</p>
+</footer>
+</body>
+
 </html>
