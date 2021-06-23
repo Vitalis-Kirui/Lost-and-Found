@@ -8,16 +8,21 @@
 body {
 	
     background-color:lightslategrey;
-	
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
 }
 
 header{
 	 position:fixed;
 	top:0; 
 	width:100%;
-	
+	z-index:10;
 }
 
+main{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
 .menu-bar{
 	background:#5FAC8C;
 	text-align: center;
@@ -89,7 +94,7 @@ button:hover{
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
-    height:300px;
+    height:70vh;
 	width: 100%;
 }
 
@@ -117,6 +122,7 @@ button:hover{
 }
 .procedure{
 	text-align: center;
+	width:100%;
 }
 .procedure h3{
 	width: auto;
