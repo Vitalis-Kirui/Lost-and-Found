@@ -1,9 +1,8 @@
 *{
-    padding:0px;
-    margin:0px;
     width: 100%;
     font-family: fantasy;
     font-size: 24px;
+    /* border: solid red 5px; */
 }
 body{
     width: 100%;
@@ -11,6 +10,7 @@ body{
     font-family:sans-serif;
     background-color: rgb(215, 233, 229);
 }
+
 .menu-bar{
     background:rgb(113, 233, 223);
     text-align: center;
@@ -18,9 +18,11 @@ body{
     width: auto;
     text-decoration: bold;
 }
+
 .menu-bar img{
     float:left;
 }
+
 .menu-bar ul{
     display:inline-flex;
     list-style-type: none;
@@ -29,8 +31,8 @@ body{
     margin-left:auto;
 }
 .menu-bar ul li{
-    width:150px;
-    margin:15px;
+    width:auto;
+    margin:10px;
     padding:15px;
 }
 .menu-bar ul li a{
@@ -40,6 +42,7 @@ body{
 .menu-bar .fa{
     margin-right:8px;
 }
+
  .tab:hover{
     background-color:rgb(131, 126, 126);
     border-radius: 3px;
@@ -47,11 +50,12 @@ body{
     cursor:pointer;
 }
 button:hover{
-    cursor: pointer;
+    cursor:pointer;
 }
 .submenu1{
     display:none;
 }
+
 .menu-bar ul li:hover .submenu1{
     display:block;
     position:absolute;
@@ -68,27 +72,24 @@ button:hover{
     padding:10px;
 }
 
-.backgroundimages{
+/* styling the theme images */
+
+.minions{
     display: flex;
-    margin-left: 0px;
     width: 100%;
 }
-.backgroundimages img{
-    width: 100%;
-    height: 200px;
-    margin-left: 0px;
-}
-#minionsleft{
-    width: 600px;
-    height: 250px;
-}
-#minionsright{
-    width: 600px;
-    height: 250px;
+#leftminion{
+    width: 20%;
 }
 #lostandfound{
-    height: 250px;
+    width: 60%;
 }
+#happyminions{
+    width: 20%;
+}
+
+/* styling the content/ body */
+
 .content{
     font-size: 24px;
     text-align: center;
@@ -102,74 +103,99 @@ button:hover{
     color: blue;
 }
 
+/* styling the partner section */
+
 .partners{
+    text-align: center;
     display: flex;
-    width: auto;
 }
-.partners ul{
-    padding-left: 70px;
-    display: flex;
-    width: 100%;
-    list-style: none;
-    margin-left: 20px;
+.partner1{
+    width: 25%;
 }
-#transport{
-    padding-right: 200px;
+.partner2{
+    width: 25%;
 }
-#saf{
-    padding-right: 200px;
+.partner3{
+    width: 25%;
 }
-#nyumba{
-    padding-right: 50px;
+.partner4{
+    width: 25%;
+}
+.partner1 img{
+    width: 25%;
+}
+.partner2 img{
+    height: 120px;
+}
+.partner3 img{
+    height: 120px;
+    width: 25%;
+}
+.partner4 img{
+    width: 25%;
 }
 
-.partnersimages{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-}
-.partnersimages img{
-    height: 200px;
-    margin-left: 20px;
-}
-#police{
-    padding-left: 30px;
-    width: 500px;
-    margin-right: 50px;
-}
-#nyumbakumi{
-    padding-right: 70px;
-}
-#ntsa{
-    width: 700px;
-    flex-grow: 5;
-}
+/* styling footer  */
 
-
-/* .partners{
-    padding-top: 30px;
-    width: auto;
-    display: flex;
-    padding-left: 150px;
+footer{
+    background:#5FAC8C;
+    box-sizing: border-box;
+    width:100%;
+    height:70vh;
+    padding:30px 0px 30px 0px;
 }
-.partners p{
-    width: auto;
+.help{
+    padding:20px 20px 20px 20px;
+    margin-right:30px;
 }
-.partnersimages{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
+.help ul{
+    list-style-type:none;
 }
-.partnersimages img{
-    height: 200px;
-    width: 100%;
-    margin-left: 20px;
+.help ul a{
+    color:white;
+    text-decoration:none;
 }
-#police{
-    padding-left: 30px;
-    width: 1500px;
-    margin-right: 50px;
+.help ul a:hover{
+    color:black;
 }
-#ntsa{
-    padding-left: 30px;
-} */
+.stayconnected{
+    margin:0px 0px 0px 30px;
+}
+.stayconnected ul{
+    list-style-type:none;
+}
+.stayconnected ul li{
+    display:inline-flex;
+}
+.stayconnected ul li img:hover{
+    border-radius:7px;
+    box-shadow:2px 2px 2px 2px;
+}
+.top{
+    display:inline-flex;
+    width:100%;
+    margin-left:0px;
+    margin-bottom:20px;
+    justify-content:space-between;
+}
+.bottom{
+    box-sizing: border-box;
+    width:90%;
+    margin-left:50px;
+}
+.partnersf{
+    width:100%;
+    display:inline-flex;
+    padding:20px 20px 20px 20px;
+    margin-left:50px;
+    text-align:center;
+}
+.partnersf img{
+    margin:-10px 20px 20px 70px;
+}
+.partnersf img:hover{
+    box-shadow: 2px 2px 2px 2px;
+}
+.contactusf{
+    padding:10px 10px 10px 0px;
+}
