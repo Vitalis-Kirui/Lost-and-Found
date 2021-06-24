@@ -1,0 +1,262 @@
+@media all and (min-width:500px){
+    *{
+        padding:0px;
+        margin:0px;
+    }
+    
+    body{
+        background-color:lightslategray;
+        font-family:sans-serif;
+    }
+    
+    header{
+        position:fixed;
+        top:0;
+        width:100%;
+    }
+    
+    .menu-bar{
+        background:#5FAC8C;
+        text-align: center;
+        height: 15vh;
+        text-decoration: bold;
+        position:sticky;
+    }
+    
+    .menu-bar img{
+        float:left;
+    }
+    .menu-bar ul{
+        display:inline-flex;
+        list-style-type: none;
+        margin-top:10px;
+        width:80%; 
+        margin-left:120px;
+    }
+    
+    .menu-bar ul li{
+        width:150px;
+        margin:15px;
+        padding:15px;
+    }
+    
+    .menu-bar ul li a{
+        text-decoration:none;
+        color:rgb(14, 13, 13);
+    }
+    
+    .menu-bar .fa{
+        margin-right:8px;
+    }
+    
+     .tab:hover{
+    
+        background-color:rgb(131, 126, 126);
+        border-radius: 3px;
+        cursor:pointer;
+    }
+    
+    button:hover{
+        cursor: pointer;
+    }
+    
+    .submenu1{
+        display:none;
+    }
+    
+    .submenu1 p{
+        cursor:none;
+    }
+    
+    .menu-bar ul li:hover .submenu1{
+        display:block;
+        position:absolute;
+        background:darkgrey;
+        margin-top:15px;
+        margin-left:-15px;
+    }
+    
+    .menu-bar ul li:hover .submenu1 ul{
+        display:block;
+        margin:-10px;
+    }
+    
+    .menu-bar ul li:hover .submenu1 ul li{
+        width:150px;
+        padding:10px;
+    }
+    
+    .theme-image{
+        width:100%;
+        height:90vh;
+        background-image:url(Images/saketh-garuda-O_3eN_7w7JQ-unsplash.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+    
+    .lostnfound-uploads{
+        background:white;
+        width:95%;
+        height:80vh;
+        overflow:hidden;
+        margin:20px 20px 20px 26px;
+        display:inline-flex;
+        text-align:center;
+        border-radius:5px;
+        padding:30px 5px 10px 10px;
+        justify-content:space-between;
+    }
+    
+    .lostnfound-uploads button:hover{
+        opacity:0.8;
+    }
+    .recentlyaddedlost{
+        background:white;
+        width:95%;
+        height:60vh;
+        margin:0px 20px 20px 26px;
+        padding:0px 5px 10px 10px;
+        border-radius:5px;
+    }
+    
+    .recentlyaddedfound{
+        background:white;
+        width:95%;
+        height:60vh;
+        margin:20px 20px 20px 26px;
+        padding:0px 5px 10px 10px;
+        border-radius:5px;
+    }
+    
+    #recentlyaddedlost{
+        background:red;
+        width:99.6%;
+        height:4.5vh;
+        margin:0px 20px 20px -10px;
+        padding:30px 5px 10px 10px;
+        border-radius:5px 5px 0px 0px;
+        display:inline-flex;
+        justify-content:space-between;
+        color:white;
+        padding:10px 10px 10px 10px;
+    }
+    
+    #recentlyaddedfound{
+        background:red;
+        width:99.6%;
+        height:4.5vh;
+        margin:0px 20px 20px -10px;
+        padding:30px 5px 10px 10px;
+        border-radius:5px 5px 0px 0px;
+        display:inline-flex;
+        justify-content:space-between;
+        color:white;
+        padding:10px 10px 10px 10px;
+    }
+    
+    .Scroll1{
+        display:inline-flex;
+        flex-direction: row;
+        justify-content:space-between;
+        width:96%;
+        overflow-x:auto;
+    }
+    
+    .Scroll1 img:hover{
+        -webkit-box-shadow: 0px 0px 22px 2px rgb(156, 154, 154);
+        -moz-box-shadow: 0px 0px 22px 2px rgb(156, 154, 154);
+        box-shadow: 0px 0px 22px 2px rgb(156, 154, 154);
+    }
+    
+    .Scroll2{
+        display:inline-flex;
+        flex-direction: row;
+        justify-content:space-between;
+        width:96%;
+        overflow-x:auto;
+    }
+    
+    .Scroll2 img:hover{
+        -webkit-box-shadow: 0px 0px 22px 2px rgb(156, 154, 154);
+        -moz-box-shadow: 0px 0px 22px 2px rgb(156, 154, 154);
+        box-shadow: 0px 0px 22px 2px rgb(156, 154, 154);
+    }
+    
+    .Scroll1 .fa:hover{
+        cursor:pointer;
+    }
+    
+    .Scroll2 .fa:hover{
+        cursor:pointer;
+    }
+
+    footer{
+        background:#5FAC8C;
+        box-sizing: border-box;
+        width:100%;
+        height:80vh;
+        padding:30px 30px 30px 30px;
+    
+    }
+    
+    .help ul{
+        list-style-type:none;
+    }
+    
+    .help ul a{
+        color:white;
+        text-decoration:none;
+    }
+    .help ul a:hover{
+        color:black;
+    }
+    
+    .stayconnected ul{
+        list-style-type:none;
+    }
+    
+    .stayconnected ul li{
+        display:inline-flex;
+    }
+    
+    .stayconnected ul li img:hover{
+        border-radius:7px;
+        box-shadow:2px 2px 2px 2px;
+    }
+    
+    .top{
+        display:inline-flex;
+        width:95%;
+        margin-left:50px;
+        margin-bottom:20px;
+        justify-content:space-between;
+    }
+    
+    .bottom{
+        box-sizing: border-box;
+        width:90%;
+        margin-left:50px;
+    }
+    
+    .partners{
+        width:100%;
+        display:inline-flex;
+        padding:20px 20px 20px 20px;
+        margin-left:50px;
+        text-align:center;
+    }
+    
+    .partners img{
+        margin:-10px 20px 20px 70px;
+    }
+    
+    .partners img:hover{
+        box-shadow: 2px 2px 2px 2px;
+        
+    }
+    
+    .contactus{
+        padding:10px 10px 10px 0px;
+    }
+}
