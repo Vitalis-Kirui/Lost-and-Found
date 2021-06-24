@@ -1,15 +1,17 @@
 *{
-    width: 100%;
     font-family: fantasy;
-    font-size: 24px;
-    /* border: solid red 5px; */
+    padding:0px;
+    margin:0px;
+    width: 100%;
 }
 body{
-    width: 100%;
+    width: auto;
     background-color:lightslategray;
     font-family:sans-serif;
     background-color: rgb(215, 233, 229);
+    font-size: 24px;
 }
+
 header{
     position: fixed;
     top: 0;
@@ -17,6 +19,7 @@ header{
     text-decoration: bold;
     z-index: 10;
 }
+/* styling the navigation bar */
 
 .menu-bar{
     background:rgb(113, 233, 223);
@@ -26,9 +29,13 @@ header{
     text-decoration: bold;
 }
 
+/* styling the logo */
+
 .menu-bar img{
     float:left;
 }
+
+/* styling nav content */
 
 .menu-bar ul{
     display:inline-flex;
@@ -50,6 +57,8 @@ header{
     margin-right:8px;
 }
 
+/* hovering the content bar */
+
  .tab:hover{
     background-color:rgb(131, 126, 126);
     border-radius: 3px;
@@ -62,6 +71,8 @@ button:hover{
 .submenu1{
     display:none;
 }
+
+/* styling the drop down under my account  */
 
 .menu-bar ul li:hover .submenu1{
     display:block;
@@ -79,77 +90,71 @@ button:hover{
     padding:10px;
 }
 
-/* styling the theme images */
+/* styling the body content */
 
-.minions{
-    padding-top: 120px;
-    display: flex;
-    width: 100%;
+.contactdetails{
+    width: auto;
+    padding-top: 130px;
+    font-size: 26px;
+    margin-left: 30px;
 }
-#leftminion{
-    width: 20%;
-}
-#lostandfound{
-    width: 60%;
-}
-#happyminions{
-    width: 20%;
-}
-
-/* styling the content/ body */
-
-.content{
-    font-size: 24px;
-    text-align: center;
-    padding-top: 30px;
-    padding-left: 30px;
+#para{
+    font-family: fantasy;
+    width: auto;
+    margin-left: 40px;
     padding-right: 30px;
+    font-size: 24px;
+}
+#email{
+    margin-left: 40px;
     width: auto;
 }
-.content h2{
-    text-align: center;
-    color: blue;
+#elink:hover{
+    color: red;
+}
+#phone{
+    width: auto;
+    margin-left: 40px;
+}
+#locationp{
+    margin-left: 20px;
+    width: auto;
 }
 
-/* styling the partner section */
+/* styling the social media icons */
 
-.partners{
-    text-align: center;
+.socialmedia{
     display: flex;
 }
-.partner1{
-    width: 25%;
+.socialmedia ul{
+    display: flex;
+    margin-left: 200px;
+    list-style: none;
 }
-.partner2{
-    width: 25%;
+.icons{
+    display: flex;
 }
-.partner3{
-    width: 25%;
+#fb, #twit, #insta{
+    height: 200px;
+    width: 150px;
 }
-.partner4{
-    width: 25%;
+#fb{
+    border-radius: 700px;
+    margin-left: 190px;
 }
-.partner1 img{
-    width: 25%;
+#twit{
+    border-radius: 700px;
+    margin-left: 115px;
 }
-.partner2 img{
-    height: 120px;
+#insta{
+    border-radius: 700px;
+    margin-left: 65px;
 }
-.partner3 img{
-    height: 120px;
-    width: 25%;
-}
-.partner4 img{
-    width: 25%;
-}
-
-/* styling footer  */
-
 footer{
     background:#5FAC8C;
     box-sizing: border-box;
     width:100%;
-    height:70vh;
+    height: 57vh;
     padding:30px 0px 30px 0px;
 }
 .help{

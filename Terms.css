@@ -1,0 +1,10 @@
+@media all and (min-width:500px){
+body{
+    display:inline-block;
+    background-color:#5FAC8C;
+}
+
+main{
+    background-color:lightslategray;
+}
+}
